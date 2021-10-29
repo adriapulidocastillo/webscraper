@@ -18,3 +18,11 @@ Then change the path of the chromedriver application in webScrapper.py DRIVER_PA
 ```` 
 DRIVER_PATH = r"C:\Users\pulidoa.AUTH\Documents\chromedriver.exe"
 ````
+
+# Execute Scraper
+
+When all the requirements are satisfied execute the main.py script
+
+```` 
+python main.py
+````  
