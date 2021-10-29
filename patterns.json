@@ -1,0 +1,10 @@
+[
+  {
+    "include": "rtx 3060",
+    "exclude": ["rtx 3060 ti", "pc gaming"]
+  },
+  {
+    "include": "rtx 3060 ti",
+    "exclude": ["pc gaming"]
+  }
+]
