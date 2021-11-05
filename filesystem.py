@@ -3,6 +3,7 @@ import json
 from model import Pattern, Product
 from pathlib import Path
 
+# gets a list of patterns from patterns.json. Each pattern have the search query in www.amazon.es/s?k=<query>
 def getPatterns() -> [Pattern]:
     patterns = []
 
@@ -18,6 +19,7 @@ def getPatterns() -> [Pattern]:
 
     return patterns
 
+# serialize a list of products into products.csv. If the file doesn't exists it will be created and will be added the csv header.
 def serialize(products: [Product]):
     file = Path("products.csv")
     fileExists = file.exists()

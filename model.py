@@ -48,9 +48,11 @@ class Product:
         self.link = link
         self.model = model
 
+    # returns the csv header
     def getCSVHeader(self) -> str:
         return "id,name,link,model,valoration,valorations,price,shippingCosts,seller,date"
 
+    # returns the csv corresponding to the product
     def toCSV(self) -> str:
         ret = ""
         for p in self.prices:

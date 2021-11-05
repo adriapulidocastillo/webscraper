@@ -1,2 +1,2 @@
-selenium
-numpy
+selenium==3.141.0
+numpy==1.21.2
